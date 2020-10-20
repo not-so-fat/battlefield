@@ -1,0 +1,3 @@
+[submodule "notebook_docker"]
+	path = notebook_docker
+	url = https://github.com/not-so-fat/notebook_docker.git
