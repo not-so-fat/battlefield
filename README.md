@@ -5,7 +5,7 @@ Docker images for analytics environment
 - MLflow
 - PostgreSQL
 
-I am developing my field based on the great article by Danny Janz
+I am developing my battlefield based on the great article by Danny Janz
 https://towardsdatascience.com/containerize-your-whole-data-science-environment-or-anything-you-want-with-docker-compose-e962b8ce8ce5
 
 
@@ -19,8 +19,8 @@ git submodule update --init --recursive
 ```
 
 2. Edit docker-compose.yml
-- <ENTER YOUR USERID>
-- <ENTER YOUR NOTEBOOK DIRECTORY>
+- Edit "<ENTER YOUR USERID>"
+- Edit "<ENTER YOUR NOTEBOOK DIRECTORY>"
 
 3. Build image
 
@@ -33,3 +33,5 @@ docker-compose build
 ```
 docker-compose up
 ```
+
+5. Develop your experiments on localhost:8888 / monitor experiments on localhost:5000
