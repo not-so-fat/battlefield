@@ -1,1 +1,1 @@
-CREATE DATABASE mlflow;
+CREATE DATABASE mlfields;
