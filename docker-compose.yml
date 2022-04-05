@@ -10,12 +10,12 @@ services:
     volumes:
       - <ENTER YOUR NOTEBOOK DIRECTORY>:/home/neo/notebook_workspace
     depends_on:
-      - mlflow
-    environment:
-      MLFLOW_TRACKING_URI: 'http://mlflow:5000'
-  mlflow:
+      - mlfields
+  mlfields:
     build:
-      context: ./mlflow
+      context: ./mlfields
+    environment:
+        MLFIELDS_SQLALCHEMY_DATABASE_URI: 'postgresql://admin:secret@postgres:5432/mlfields'
     expose:
       - "5000"
     ports:
