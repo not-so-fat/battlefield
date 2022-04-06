@@ -1,6 +1,6 @@
-FROM python:3.7
+FROM python:3.8
 
-RUN pip install mlfields==0.0.3
+RUN pip install mlfields
 RUN pip install psycopg2 waitress
 
 EXPOSE 5000
